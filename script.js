@@ -14,3 +14,16 @@ links.addEventListener('click', (e) => {
 });
 
 document.getElementById('year').textContent = new Date().getFullYear();
+
+// Project filters (projects.html)
+const chips = document.querySelectorAll('.chip');
+if (chips.length) {
+  chips.forEach((chip) => chip.addEventListener('click', () => {
+    chips.forEach((c) => c.classList.remove('active'));
+    chip.classList.add('active');
+    const f = chip.dataset.filter;
+    document.querySelectorAll('.project').forEach((p) => {
+      p.classList.toggle('hidden', f !== 'all' && !p.dataset.cat.split(' ').includes(f));
+    });
+  }));
+}

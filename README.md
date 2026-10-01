@@ -6,10 +6,13 @@ database performance, data migration, executive analytics).
 
 ## Structure
 
-- `index.html` — single-page site (hero, expertise, approach, results,
-  experience timeline, clients & employers, research & patents, about, contact)
+- `index.html` — home (hero, expertise, approach, results, experience
+  timeline, clients & employers, research & patents, about, contact)
+- `projects.html` — all 21 projects with category filters
+- `publications.html` — patents, 22 publications, academic background
+- `assets/art-*.svg` — original generated artwork used as page backgrounds
 - `styles.css` — styles, responsive down to phone width
-- `script.js` — mobile menu and footer year
+- `script.js` — mobile menu, footer year, project filters
 - `assets/favicon.svg` — site icon
 
 It's plain static HTML/CSS/JS with no build step. Open `index.html` in a browser

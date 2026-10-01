@@ -46,7 +46,7 @@ Privately Held
 1994
 
 **Headquarters**
-Austin, Texas, United States
+La Jolla, California, United States
 
 **Tagline** (120 characters max; this one is 108)
 Fractional CDO, data strategy & architecture consulting from a 30-year practitioner with three US patents.
@@ -73,7 +73,7 @@ Selected results: a 19-node massively parallel warehouse delivered at roughly a 
 
 Dr. Mehovic earned his Ph.D. in Computer Science at UCLA under Leonard Kleinrock, holds three US patents in data management, and has held senior data roles at IBM, Sabre, Facebook, Qubole, and SimplePractice.
 
-Based in Austin, Texas. Working with clients across the United States and internationally.
+Based in La Jolla, California. Working with clients across the United States and internationally.
 
 Start with a free 30-minute conversation: info@entrepro.biz
 

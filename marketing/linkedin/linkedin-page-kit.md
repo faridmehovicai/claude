@@ -75,7 +75,7 @@ Dr. Mehovic earned his Ph.D. in Computer Science at UCLA under Leonard Kleinrock
 
 Based in La Jolla, California. Working with clients across the United States and internationally.
 
-Start with a free 30-minute conversation: info@entrepro.biz
+Inquiries: info@entrepro.biz
 
 ---
 

@@ -229,6 +229,7 @@ h2 em { font-style: italic; color: var(--gold); }
   .logo-grid { grid-template-columns: repeat(3, 1fr); }
 }
 @media (max-width: 720px) {
+  .stats-strip .stats { grid-template-columns: 1fr 1fr; }
   .results, .steps-compact { grid-template-columns: 1fr; }
   .logo-grid { grid-template-columns: repeat(2, 1fr); }
   .stats { gap: 18px 14px; }
@@ -245,21 +246,15 @@ h2 em { font-style: italic; color: var(--gold); }
 .nav-links .tab.active { color: var(--navy); }
 .nav-links .tab.active::after { content: ""; position: absolute; left: 0; right: 0; bottom: -1px; height: 3px; background: var(--gold); border-radius: 3px 3px 0 0; }
 
-.hero-image, .page-hero { position: relative; overflow: hidden; color: #fff; background: var(--navy); }
-.hero-art { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
-.hero-image .container, .page-hero .container { position: relative; }
-.hero-image h1, .page-hero h1 { color: #fff; }
-.hero-image .lead, .page-hero .lead { color: #d7deea; }
-.hero-image .hero-card { background: rgba(7,21,40,.78); backdrop-filter: blur(6px); border: 1px solid rgba(200,150,62,.35); }
-.btn-ghost-light { color: #fff; border-color: rgba(255,255,255,.7); }
-.btn-ghost-light:hover { background: #fff; color: var(--navy); border-color: #fff; }
-.page-hero { padding: clamp(64px, 9vw, 110px) 0; }
-.page-hero h1 { max-width: 16em; }
+.page-hero { padding: clamp(56px, 8vw, 96px) 0; background: radial-gradient(circle at 85% 20%, var(--gold-soft), transparent 45%), var(--bg); }
+.page-hero h1 { color: var(--navy); }
 .page-hero h1 em { font-style: italic; color: var(--gold); }
-
-.band { position: relative; overflow: hidden; }
-.band-art { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: .55; }
-.band .container { position: relative; }
+.hero-photo { margin: 0; aspect-ratio: 4 / 3; border-radius: var(--radius); overflow: hidden; background: linear-gradient(135deg, var(--gold-soft), #dfe6f0); box-shadow: 0 24px 60px -28px rgba(11,31,58,.45); }
+.hero-photo img { width: 100%; height: 100%; object-fit: cover; }
+.stats-strip { background: var(--navy); color: #fff; padding: 28px 0; }
+.stats-strip .stats { grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.quote-section .big-quote p { color: var(--navy); }
+.quote-section .big-quote footer { color: var(--muted); }
 
 .more-link { margin-top: 2em; }
 .more-link a, .text-link { color: var(--navy); font-weight: 600; text-decoration: none; border-bottom: 2px solid var(--gold); padding-bottom: 2px; }

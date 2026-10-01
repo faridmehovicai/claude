@@ -12,13 +12,30 @@ database performance, data migration, executive analytics).
 - `projects.html` — twenty projects with category filters
 - `publications.html` — three patents and 21 publications grouped by decade
 - `academic.html` — degrees, research history, teaching, invited talks, honors
-- `assets/art-*.svg` — original generated artwork used as page backgrounds
+- `assets/photos/` — hero photographs (see below)
 - `styles.css` — styles, responsive down to phone width
 - `script.js` — mobile menu, footer year, project filters
 - `assets/favicon.svg` — site icon
 
 It's plain static HTML/CSS/JS with no build step. Open `index.html` in a browser
 to preview, or host it on any static host (GitHub Pages, Netlify, Cloudflare Pages).
+
+## Photos
+
+Each page has a photo slot in its hero. Drop these five files into
+`assets/photos/` (JPEG, landscape, at least 1600 px wide, under ~400 KB each):
+
+| File | Page | Suggested subject |
+|---|---|---|
+| `home.jpg` | Home | sunrise over mountains, a road toward the horizon, a city skyline at dawn |
+| `services.jpg` | Services | people working at a whiteboard or around a table |
+| `projects.jpg` | Projects | a bridge, a dam, or other large engineered structure |
+| `publications.jpg` | Publications | a library or reading room |
+| `academic.jpg` | Academic | a university campus or lecture hall |
+
+Unsplash, Pexels, and Pixabay all offer photos free for commercial use with
+no attribution required. Until a file is present, the slot shows a soft
+gradient panel.
 
 ## Hosting on entrepro.biz (GitHub Pages)
 

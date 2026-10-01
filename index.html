@@ -39,8 +39,7 @@
 
   <main id="top">
     <!-- ───────────────────────── Hero ───────────────────────── -->
-    <section class="hero hero-image">
-      <img class="hero-art" src="assets/art-constellation.svg" alt="" aria-hidden="true">
+    <section class="hero">
       <div class="container hero-grid">
         <div>
           <p class="eyebrow">Data strategy · Architecture · Leadership</p>
@@ -48,33 +47,21 @@
           <p class="lead">EntrePro Corporation helps executives build the data function their company actually needs: a clear strategy, a sound architecture, and systems that perform. Led by Dr. Farid Mehovic, who has done this work at IBM, Sabre, Meta, HSBC, and a dozen high-growth SaaS companies.</p>
           <div class="hero-actions">
             <a href="#contact" class="btn">Schedule a consultation</a>
-            <a href="#expertise" class="btn btn-ghost btn-ghost-light">See what we do</a>
+            <a href="#expertise" class="btn btn-ghost">See what we do</a>
           </div>
         </div>
-        <aside class="hero-card" aria-label="Key facts">
-          <svg class="hero-bg" viewBox="0 0 320 260" aria-hidden="true">
-            <defs>
-              <linearGradient id="hg" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0" stop-color="#c8963e" stop-opacity=".55"/>
-                <stop offset="1" stop-color="#c8963e" stop-opacity="0"/>
-              </linearGradient>
-            </defs>
-            <g stroke="url(#hg)" stroke-width="1.2" fill="none">
-              <path d="M20 200 L90 120 L160 150 L230 60 L300 90"/>
-              <path d="M20 230 L90 180 L160 200 L230 130 L300 160" opacity=".6"/>
-            </g>
-            <g fill="#c8963e">
-              <circle cx="90" cy="120" r="3.5"/><circle cx="160" cy="150" r="3.5"/>
-              <circle cx="230" cy="60" r="3.5"/><circle cx="300" cy="90" r="3.5"/>
-            </g>
-          </svg>
-          <div class="stats">
-            <div class="stat"><span class="stat-num">30<sup>+</sup></span><span class="stat-label">years in data systems</span></div>
-            <div class="stat"><span class="stat-num">3</span><span class="stat-label">US patents in data management</span></div>
-            <div class="stat"><span class="stat-num">20<sup>+</sup></span><span class="stat-label">publications &amp; talks</span></div>
-            <div class="stat"><span class="stat-num">25<sup>+</sup></span><span class="stat-label">organizations served</span></div>
-          </div>
-        </aside>
+        <figure class="hero-photo">
+          <img src="assets/photos/home.jpg" alt="Sunrise over a mountain range" onerror="this.style.display='none'">
+        </figure>
+      </div>
+    </section>
+
+    <section class="stats-strip" aria-label="Key facts">
+      <div class="container stats">
+        <div class="stat"><span class="stat-num">30<sup>+</sup></span><span class="stat-label">years in data systems</span></div>
+        <div class="stat"><span class="stat-num">3</span><span class="stat-label">US patents in data management</span></div>
+        <div class="stat"><span class="stat-num">20<sup>+</sup></span><span class="stat-label">publications &amp; talks</span></div>
+        <div class="stat"><span class="stat-num">25<sup>+</sup></span><span class="stat-label">organizations served</span></div>
       </div>
     </section>
 
@@ -244,8 +231,7 @@
     </section>
 
     <!-- ───────────────────────── Testimonial ───────────────────────── -->
-    <section class="section section-dark quote-section band">
-      <img class="band-art" src="assets/art-bars.svg" alt="" aria-hidden="true">
+    <section class="section section-alt quote-section">
       <div class="container">
         <blockquote class="big-quote">
           <p>"The amount and quality of his work literally feels like the work of several experts, not just one individual. &hellip; This has saved us millions of dollars."</p>

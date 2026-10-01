@@ -27,9 +27,21 @@ The `CNAME` file tells GitHub Pages to serve the site at `entrepro.biz`.
 3. Once DNS has updated (minutes to a few hours), go back to **Settings → Pages**
    and tick **Enforce HTTPS**.
 
-## Before going live
+## Email: info@entrepro.biz → Gmail
 
-- Replace the placeholder email and phone in the Contact section of `index.html`.
-- The contact form uses `mailto:`; point its `action` at a form service
-  (e.g. Formspree) to receive submissions directly.
-- Review the service descriptions so they match what you offer.
+The site lists `info@entrepro.biz`. To forward it to your Gmail for free, use
+[ImprovMX](https://improvmx.com):
+
+1. Sign up at improvmx.com with `entrepro.biz` and set the alias
+   `info` → your Gmail address.
+2. In Wix **Manage DNS Records**, add:
+   - **MX** `@` → `mx1.improvmx.com` (priority 10)
+   - **MX** `@` → `mx2.improvmx.com` (priority 20)
+   - **TXT** `@` → `v=spf1 include:spf.improvmx.com ~all`
+   (remove any other MX records on `@`)
+3. Optional: to reply *as* info@entrepro.biz from Gmail, add it under
+   Gmail **Settings → Accounts → Send mail as** using ImprovMX's SMTP details.
+
+The contact form posts to [FormSubmit](https://formsubmit.co), which emails each
+submission to `info@entrepro.biz`. The very first submission sends a one-time
+activation email to that address; click the link in it to turn the form on.

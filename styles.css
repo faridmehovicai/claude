@@ -92,6 +92,7 @@ blockquote { margin: 1.8em 0 0; padding: 1em 0 1em 1.4em; border-left: 3px solid
 .contact-form label { display: grid; gap: 6px; font-size: .9rem; font-weight: 500; }
 .contact-form input, .contact-form textarea { font: inherit; padding: .7em .9em; border: 1px solid var(--line); border-radius: 8px; background: var(--bg-alt); color: var(--ink); resize: vertical; }
 .contact-form input:focus, .contact-form textarea:focus { outline: 2px solid var(--gold); outline-offset: 1px; background: #fff; }
+.contact-form .hp { position: absolute; left: -9999px; }
 .contact-form .btn { justify-self: start; }
 
 .site-footer { background: #071528; color: #9aa7ba; font-size: .9rem; padding: 24px 0; }

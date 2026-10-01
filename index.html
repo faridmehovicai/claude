@@ -160,13 +160,14 @@
           <h2>Let's talk about what's next</h2>
           <p class="lead">Tell us a little about your business and where you want to go. We'll reply within one business day to set up a free 30-minute consultation.</p>
           <ul class="contact-list">
-            <!-- TODO: replace with your real email and phone -->
-            <li><span>Email</span><a href="mailto:you@example.com">you@example.com</a></li>
-            <li><span>Phone</span><a href="tel:+10000000000">(000) 000-0000</a></li>
+            <li><span>Email</span><a href="mailto:info@entrepro.biz">info@entrepro.biz</a></li>
           </ul>
         </div>
-        <!-- Sends via the visitor's email app. Swap the action for a form service (e.g. Formspree) to receive submissions directly. -->
-        <form class="contact-form" action="mailto:you@example.com" method="post" enctype="text/plain">
+        <!-- Submissions are emailed to info@entrepro.biz via FormSubmit (formsubmit.co). The first submission triggers a one-time activation email. -->
+        <form class="contact-form" action="https://formsubmit.co/info@entrepro.biz" method="post">
+          <input type="hidden" name="_subject" value="New inquiry from entrepro.biz">
+          <input type="hidden" name="_template" value="table">
+          <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
           <label>Name<input type="text" name="name" autocomplete="name" required></label>
           <label>Email<input type="email" name="email" autocomplete="email" required></label>
           <label>Company<input type="text" name="company" autocomplete="organization"></label>

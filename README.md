@@ -29,17 +29,19 @@ the file with a landscape JPEG of at least 1200 px width and keep the filename.
 
 ## Hosting on entrepro.biz (GitHub Pages)
 
-The `CNAME` file tells GitHub Pages to serve the site at `entrepro.biz`.
+The site deploys automatically through GitHub Actions
+(`.github/workflows/pages.yml`) on every push to the repository's default
+branch. Pages is enabled with source "GitHub Actions" and custom domain
+`entrepro.biz` under **Settings → Pages**.
 
-1. In the GitHub repo, go to **Settings → Pages**, set the source to
-   **Deploy from a branch**, and pick the branch holding this site (root folder).
-2. In Wix, open **Domains → entrepro.biz → Manage DNS Records** and set:
-   - **A** records for `entrepro.biz` (host `@`) pointing to
-     `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-     (remove any other A records on `@`)
-   - **CNAME** for `www` pointing to `faridmehovicai.github.io`
-3. Once DNS has updated (minutes to a few hours), go back to **Settings → Pages**
-   and tick **Enforce HTTPS**.
+DNS, in Wix under **Domains → entrepro.biz → Manage DNS Records**:
+
+- **A** records for host `@` pointing to `185.199.108.153`,
+  `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
+  (remove any other A records on `@`)
+- **CNAME** for host `www` pointing to `faridmehovicai.github.io`
+
+Once DNS has propagated, tick **Enforce HTTPS** under Settings → Pages.
 
 ## Email: info@entrepro.biz → Gmail
 

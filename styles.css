@@ -320,3 +320,44 @@ h2 em { font-style: italic; color: var(--gold); }
   .pubs li { grid-template-columns: 1fr; gap: 4px; }
   .pub-type { grid-row: auto; }
 }
+
+/* ── Services & Academic pages ── */
+.services { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
+.service { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 28px; display: flex; flex-direction: column; }
+.service-head { display: flex; align-items: center; gap: 14px; margin-bottom: 12px; }
+.service-head .card-icon { margin: 0; flex-shrink: 0; }
+.service h3 { margin: 0; font-size: 1.2rem; color: var(--navy); }
+.service > p { color: var(--muted); margin-bottom: .8em; }
+.service-list { margin: 0 0 1em; padding-left: 1.2em; color: var(--ink); font-size: .95rem; display: grid; gap: 4px; }
+.service-list li::marker { color: var(--gold); }
+.service-proof { margin: auto 0 0 !important; padding-top: 12px; border-top: 1px solid var(--line); font-size: .88rem; color: var(--navy) !important; }
+.models { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
+.model { border-top: 2px solid var(--navy); padding-top: 18px; }
+.model h3 { font-size: 1.15rem; margin-bottom: .1em; }
+.model-term { color: var(--gold); font-weight: 600; font-size: .9rem; margin-bottom: .6em; }
+.model p:last-child { color: var(--muted); font-size: .95rem; margin: 0; }
+
+.degrees { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.degree { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 28px; }
+.degree-level { font-family: var(--serif); font-size: 2rem; color: var(--gold); line-height: 1; display: block; margin-bottom: 8px; }
+.degree h3 { font-size: 1.15rem; margin-bottom: .2em; }
+.degree-school { color: var(--muted); font-size: .9rem; margin-bottom: 1em; }
+.degree p { color: var(--ink); font-size: .95rem; }
+.degree-note { color: var(--muted) !important; font-size: .85rem !important; margin: 0; }
+.card-sub { color: var(--gold) !important; font-size: .85rem; font-weight: 600; margin-bottom: .6em !important; }
+.talks { list-style: none; margin: 0; padding: 0; }
+.talks li { display: grid; grid-template-columns: 90px 1fr; gap: 16px; padding: 14px 0; border-top: 1px solid var(--line); }
+.talks li:last-child { border-bottom: 1px solid var(--line); }
+.talk-year { font-family: var(--serif); font-size: 1.2rem; color: var(--gold); }
+.talks strong { display: block; color: var(--navy); font-weight: 600; }
+.talks span:not(.talk-year) { color: var(--muted); font-size: .92rem; }
+.section-alt .timeline li::before { border-color: var(--bg-alt); }
+
+@media (max-width: 960px) {
+  .models { grid-template-columns: repeat(2, 1fr); }
+  .degrees { grid-template-columns: 1fr; }
+}
+@media (max-width: 720px) {
+  .services, .models { grid-template-columns: 1fr; }
+  .talks li { grid-template-columns: 1fr; gap: 4px; }
+}

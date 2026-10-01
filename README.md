@@ -8,8 +8,10 @@ database performance, data migration, executive analytics).
 
 - `index.html` — home (hero, expertise, approach, results, experience
   timeline, clients & employers, research & patents, about, contact)
-- `projects.html` — all 21 projects with category filters
-- `publications.html` — patents, 22 publications, academic background
+- `services.html` — fourteen services in four groups, plus engagement models
+- `projects.html` — twenty projects with category filters
+- `publications.html` — three patents and 21 publications grouped by decade
+- `academic.html` — degrees, research history, teaching, invited talks, honors
 - `assets/art-*.svg` — original generated artwork used as page backgrounds
 - `styles.css` — styles, responsive down to phone width
 - `script.js` — mobile menu, footer year, project filters

@@ -13,6 +13,7 @@ database performance, data migration, executive analytics).
 - `publications.html` — three patents and 21 publications grouped by decade
 - `academic.html` — degrees, research history, teaching, invited talks, honors
 - `assets/photos/` — hero photographs (see below)
+- `marketing/linkedin/` — LinkedIn Company Page kit: copy for every field, logo and banner images, launch posts
 - `styles.css` — styles, responsive down to phone width
 - `script.js` — mobile menu, footer year, project filters
 - `assets/favicon.svg` — site icon

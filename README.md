@@ -22,20 +22,10 @@ to preview, or host it on any static host (GitHub Pages, Netlify, Cloudflare Pag
 
 ## Photos
 
-Each page has a photo slot in its hero. Drop these five files into
-`assets/photos/` (JPEG, landscape, at least 1600 px wide, under ~400 KB each):
-
-| File | Page | Suggested subject |
-|---|---|---|
-| `home.jpg` | Home | sunrise over mountains, a road toward the horizon, a city skyline at dawn |
-| `services.jpg` | Services | people working at a whiteboard or around a table |
-| `projects.jpg` | Projects | a bridge, a dam, or other large engineered structure |
-| `publications.jpg` | Publications | a library or reading room |
-| `academic.jpg` | Academic | a university campus or lecture hall |
-
-Unsplash, Pexels, and Pixabay all offer photos free for commercial use with
-no attribution required. Until a file is present, the slot shows a soft
-gradient panel.
+Hero photographs live in `assets/photos/`. All five are CC0 / public domain,
+found through Openverse and sourced from StockSnap; `assets/photos/CREDITS.md`
+records the title, photographer, and source page for each. To swap one, replace
+the file with a landscape JPEG of at least 1200 px width and keep the filename.
 
 ## Hosting on entrepro.biz (GitHub Pages)
 

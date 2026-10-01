@@ -1,11 +1,13 @@
 # EntrePro Corporation
 
-Website for EntrePro Corporation, a business consulting firm that helps founders
-and growing businesses with strategy, operations, finance, and leadership.
+Website for EntrePro Corporation, the data strategy, architecture, and
+leadership consultancy of Dr. Farid Mehovic (fractional CDO, data warehousing,
+database performance, data migration, executive analytics).
 
 ## Structure
 
-- `index.html` — single-page site (hero, services, approach, about, contact)
+- `index.html` — single-page site (hero, expertise, approach, results,
+  experience timeline, clients & employers, research & patents, about, contact)
 - `styles.css` — styles, responsive down to phone width
 - `script.js` — mobile menu and footer year
 - `assets/favicon.svg` — site icon

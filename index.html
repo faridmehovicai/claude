@@ -3,17 +3,17 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>EntrePro Corporation | Business Consulting</title>
-  <meta name="description" content="EntrePro Corporation helps founders and growing businesses sharpen strategy, streamline operations, and scale with confidence.">
+  <title>EntrePro Corporation | Data Strategy, Architecture &amp; Leadership</title>
+  <meta name="description" content="EntrePro Corporation provides fractional Chief Data Officer services, data strategy, enterprise data architecture, and database performance consulting, led by Dr. Farid Mehovic, with 30+ years at IBM, Sabre, Meta, HSBC, and fast-growing SaaS companies.">
   <link rel="canonical" href="https://entrepro.biz/">
-  <meta property="og:title" content="EntrePro Corporation | Business Consulting">
-  <meta property="og:description" content="Clear strategy, practical execution, measurable growth for founders and growing businesses.">
+  <meta property="og:title" content="EntrePro Corporation | Data Strategy, Architecture &amp; Leadership">
+  <meta property="og:description" content="Fractional CDO, data strategy, data architecture, and database performance consulting from a 30-year practitioner with three US patents.">
   <meta property="og:url" content="https://entrepro.biz/">
   <meta property="og:type" content="website">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -27,8 +27,11 @@
         <span></span><span></span>
       </button>
       <nav id="nav-links" class="nav-links">
-        <a href="#services">Services</a>
-        <a href="#approach">Approach</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#results">Results</a>
+        <a href="#experience">Experience</a>
+        <a href="#clients">Clients</a>
+        <a href="#research">Research</a>
         <a href="#about">About</a>
         <a href="#contact" class="btn btn-small">Book a call</a>
       </nav>
@@ -36,131 +39,415 @@
   </header>
 
   <main id="top">
+    <!-- ───────────────────────── Hero ───────────────────────── -->
     <section class="hero">
       <div class="container hero-grid">
         <div>
-          <p class="eyebrow">Business consulting for builders</p>
-          <h1>Clear strategy.<br>Practical execution.<br><em>Measurable growth.</em></h1>
-          <p class="lead">EntrePro Corporation partners with founders, owners, and leadership teams to turn ambitious goals into a focused plan, and then helps you deliver it.</p>
+          <p class="eyebrow">Data strategy · Architecture · Leadership</p>
+          <h1>Thirty years of turning data into a <em>business advantage.</em></h1>
+          <p class="lead">EntrePro Corporation helps executives build the data function their company actually needs: a clear strategy, a sound architecture, and systems that perform. Led by Dr. Farid Mehovic, who has done this work at IBM, Sabre, Meta, HSBC, and a dozen high-growth SaaS companies.</p>
           <div class="hero-actions">
             <a href="#contact" class="btn">Schedule a consultation</a>
-            <a href="#services" class="btn btn-ghost">Explore services</a>
+            <a href="#expertise" class="btn btn-ghost">See what we do</a>
           </div>
         </div>
-        <aside class="hero-card" aria-label="How we work">
-          <p class="hero-card-title">Every engagement delivers</p>
-          <ul class="checklist">
-            <li>A candid diagnosis of where you stand</li>
-            <li>A prioritized, 90-day action plan</li>
-            <li>Metrics that show progress, week by week</li>
-            <li>Hands-on support through implementation</li>
-          </ul>
+        <aside class="hero-card" aria-label="Key facts">
+          <svg class="hero-bg" viewBox="0 0 320 260" aria-hidden="true">
+            <defs>
+              <linearGradient id="hg" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#c8963e" stop-opacity=".55"/>
+                <stop offset="1" stop-color="#c8963e" stop-opacity="0"/>
+              </linearGradient>
+            </defs>
+            <g stroke="url(#hg)" stroke-width="1.2" fill="none">
+              <path d="M20 200 L90 120 L160 150 L230 60 L300 90"/>
+              <path d="M20 230 L90 180 L160 200 L230 130 L300 160" opacity=".6"/>
+            </g>
+            <g fill="#c8963e">
+              <circle cx="90" cy="120" r="3.5"/><circle cx="160" cy="150" r="3.5"/>
+              <circle cx="230" cy="60" r="3.5"/><circle cx="300" cy="90" r="3.5"/>
+            </g>
+          </svg>
+          <div class="stats">
+            <div class="stat"><span class="stat-num">30<sup>+</sup></span><span class="stat-label">years in data systems</span></div>
+            <div class="stat"><span class="stat-num">3</span><span class="stat-label">US patents in data management</span></div>
+            <div class="stat"><span class="stat-num">20<sup>+</sup></span><span class="stat-label">publications &amp; talks</span></div>
+            <div class="stat"><span class="stat-num">25<sup>+</sup></span><span class="stat-label">organizations served</span></div>
+          </div>
         </aside>
       </div>
     </section>
 
-    <section id="services" class="section">
+    <!-- ───────────────────────── Trust strip ───────────────────────── -->
+    <section class="trust" aria-label="Organizations">
       <div class="container">
-        <p class="eyebrow">Services</p>
-        <h2>Where we help</h2>
+        <p class="trust-title">Experience built at</p>
+        <ul class="trust-list">
+          <li>Meta</li><li>IBM</li><li>Sabre</li><li>HSBC</li><li>Equinix</li><li>ResMed</li>
+          <li>Qubole</li><li>SimplePractice</li><li>Druva</li><li>Verint</li><li>GE Healthcare</li><li>State of Illinois</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── Expertise ───────────────────────── -->
+    <section id="expertise" class="section">
+      <div class="container">
+        <p class="eyebrow">Expertise</p>
+        <h2>Where EntrePro delivers</h2>
+        <p class="lead section-lead">Every engagement is led personally by Dr. Mehovic. No hand-offs to junior staff, no slide decks without implementation.</p>
         <div class="cards">
           <article class="card">
             <div class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M4 19h16M6 15l4-4 3 3 5-6"/></svg>
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="7" r="3.5"/><path d="M4 21c0-4 3.6-7 8-7s8 3 8 7"/><path d="M12 10.5v3.5"/></svg>
             </div>
-            <h3>Growth strategy</h3>
-            <p>Market positioning, pricing, and go-to-market plans grounded in your numbers, not guesswork.</p>
+            <h3>Fractional Chief Data Officer</h3>
+            <p>Senior data leadership on a part-time or interim basis. Has served as Head of Data at SimplePractice and Druva, CDO at Electric Cab North America, and executive analytics advisor at Overjet.</p>
           </article>
           <article class="card">
             <div class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M5.6 18.4l2.1-2.1M16.3 7.7l2.1-2.1"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M4 19h16M6 15l4-4 3 3 5-6"/><path d="M18 8h-3m3 0v3"/></svg>
             </div>
-            <h3>Operations &amp; process</h3>
-            <p>Streamline workflows, remove bottlenecks, and build systems that scale without adding chaos.</p>
+            <h3>Data strategy &amp; the data function</h3>
+            <p>Assess the current state, define a vision, and lay out a prioritized roadmap with the organization, metrics, and hiring plan to execute it. Built around a proven model for what a data office should own.</p>
           </article>
           <article class="card">
             <div class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M12 3v18M16 7H10a3 3 0 0 0 0 6h4a3 3 0 0 1 0 6H7"/></svg>
+              <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="5" rx="1.5"/><rect x="3" y="11" width="18" height="5" rx="1.5"/><path d="M7 18v2h10v-2"/></svg>
             </div>
-            <h3>Financial planning</h3>
-            <p>Budgets, forecasts, and KPI dashboards that give you a clear view of cash, margin, and runway.</p>
+            <h3>Enterprise data architecture &amp; warehousing</h3>
+            <p>Data lakes, warehouses, ODS, and analytics platforms on AWS, GCP, Azure, Snowflake, BigQuery, Redshift, and SQL Server. Fluent in both Kimball and Inmon, with 20+ years of hands-on delivery.</p>
           </article>
           <article class="card">
             <div class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="10" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M14.5 20c.3-2.4 1.6-4 3.5-4 2 0 3 1.6 3 4"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M13 3 5 14h6l-1 7 8-11h-6z"/></svg>
             </div>
-            <h3>Leadership &amp; teams</h3>
-            <p>Org design, hiring plans, and executive coaching so your team can own results.</p>
+            <h3>Database design &amp; performance</h3>
+            <p>Order-of-magnitude performance gains through proper modeling, logic placement, and SQL. Delivered 10× on a 3-billion-row system and several orders of magnitude for ResMed's flagship application.</p>
           </article>
           <article class="card">
             <div class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 14h3"/></svg>
+              <svg viewBox="0 0 24 24"><path d="M4 7h7l2 3h7v9H4z"/><path d="M9 14h6M12 11v6"/></svg>
             </div>
-            <h3>Startup launch</h3>
-            <p>From business plan to first customers: structure, validation, and an investor-ready story.</p>
+            <h3>Data migration &amp; integration</h3>
+            <p>Architecture and program leadership for complex migrations across tens of enterprise applications, including MDM and real-time integration buses. Led a 30-person team through Equinix's enterprise migration.</p>
           </article>
           <article class="card">
             <div class="card-icon" aria-hidden="true">
-              <svg viewBox="0 0 24 24"><path d="M4 12h4l3-7 4 14 3-7h2"/></svg>
+              <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M7 14l3-3 2 2 4-5"/><path d="M9 21h6"/></svg>
             </div>
-            <h3>Turnaround advisory</h3>
-            <p>When results stall, we move quickly to stabilize, refocus, and restore momentum.</p>
+            <h3>Executive analytics &amp; dashboards</h3>
+            <p>Automated, board-ready reporting for finance, product, sales, and risk. Consolidated usage data across four clouds at Qubole and built an automated executive dashboard at Overjet.</p>
           </article>
         </div>
       </div>
     </section>
 
+    <!-- ───────────────────────── Approach ───────────────────────── -->
     <section id="approach" class="section section-alt">
+      <div class="container approach-grid">
+        <div>
+          <p class="eyebrow">Approach</p>
+          <h2>One metric that matters: <em>time to insight</em></h2>
+          <p class="lead">How long does it take your company to go from a question to a confident decision? Every layer of the data platform either speeds that up or slows it down. EntrePro works across the whole chain, from the application database to the executive dashboard, so nothing is left to chance.</p>
+          <ol class="steps steps-compact">
+            <li><span class="step-num">01</span><h3>Discover</h3><p>Interview stakeholders, review the data landscape and the numbers.</p></li>
+            <li><span class="step-num">02</span><h3>Design</h3><p>Define the vision, architecture, and a prioritized, paced roadmap.</p></li>
+            <li><span class="step-num">03</span><h3>Deliver</h3><p>Build alongside your team, hands-on, with measurable milestones.</p></li>
+            <li><span class="step-num">04</span><h3>Sustain</h3><p>Transfer knowledge and leave documentation your team can run with.</p></li>
+          </ol>
+        </div>
+        <figure class="chain" aria-label="The data value chain">
+          <svg viewBox="0 0 385 420" role="img" aria-labelledby="chain-title">
+            <title id="chain-title">The data value chain, from sources to decisions</title>
+            <defs>
+              <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+                <path d="M0 0 L10 5 L0 10 z" fill="#c8963e"/>
+              </marker>
+            </defs>
+            <g class="chain-nodes" font-family="Inter, sans-serif">
+              <g transform="translate(30,20)">
+                <rect width="300" height="52" rx="10" class="node"/>
+                <text x="18" y="22" class="node-title">Sources</text>
+                <text x="18" y="40" class="node-sub">Product databases · SaaS apps · files · APIs</text>
+              </g>
+              <path d="M180 72 V92" class="link" marker-end="url(#arrow)"/>
+              <g transform="translate(30,96)">
+                <rect width="300" height="52" rx="10" class="node"/>
+                <text x="18" y="22" class="node-title">Ingestion &amp; transformation</text>
+                <text x="18" y="40" class="node-sub">ETL/ELT · Airflow · dbt · Fivetran</text>
+              </g>
+              <path d="M180 148 V168" class="link" marker-end="url(#arrow)"/>
+              <g transform="translate(30,172)">
+                <rect width="300" height="52" rx="10" class="node node-accent"/>
+                <text x="18" y="22" class="node-title">Analytical platform</text>
+                <text x="18" y="40" class="node-sub">Snowflake · BigQuery · Redshift · Databricks</text>
+              </g>
+              <path d="M180 224 V244" class="link" marker-end="url(#arrow)"/>
+              <g transform="translate(30,248)">
+                <rect width="300" height="52" rx="10" class="node"/>
+                <text x="18" y="22" class="node-title">Governance &amp; quality</text>
+                <text x="18" y="40" class="node-sub">Stewardship · integrity · protection</text>
+              </g>
+              <path d="M180 300 V320" class="link" marker-end="url(#arrow)"/>
+              <g transform="translate(30,324)">
+                <rect width="300" height="52" rx="10" class="node"/>
+                <text x="18" y="22" class="node-title">Insight &amp; delivery</text>
+                <text x="18" y="40" class="node-sub">Dashboards · analytics · ML · decisions</text>
+              </g>
+              <path d="M345 46 V350" class="bracket"/>
+              <text transform="translate(366,198) rotate(-90)" text-anchor="middle" class="bracket-label">Time to insight</text>
+            </g>
+          </svg>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── Results ───────────────────────── -->
+    <section id="results" class="section">
       <div class="container">
-        <p class="eyebrow">Approach</p>
-        <h2>A simple, proven process</h2>
-        <ol class="steps">
+        <p class="eyebrow">Results</p>
+        <h2>Selected outcomes</h2>
+        <div class="results">
+          <article class="result">
+            <span class="result-num">$22M</span>
+            <h3>saved on a state data warehouse</h3>
+            <p>Architected the Illinois Department of Human Services' 19-node massively parallel DB2 warehouse for 1,000+ users at roughly $8M over five years, versus $30M for a smaller system at a peer agency.</p>
+          </article>
+          <article class="result">
+            <span class="result-num">75%</span>
+            <h3>margin on a $10M airline system</h3>
+            <p>Designed Sabre's metadata-driven offline fares management system, whose automation carried the profitability of the full $50M program.</p>
+          </article>
+          <article class="result">
+            <span class="result-num">10×</span>
+            <h3>faster on 3 billion records</h3>
+            <p>Overhauled the database design of a voice-mail broadcasting platform processing billions of do-not-call checks daily, making the company competitive for Fortune 500 clients.</p>
+          </article>
+          <article class="result">
+            <span class="result-num">3×</span>
+            <h3>more accurate record matching</h3>
+            <p>Built a distributed deduplication engine on record linkage theory that outperformed the leading commercial tool, now IBM QualityStage, for a $4B welfare program.</p>
+          </article>
+          <article class="result">
+            <span class="result-num">2×</span>
+            <h3>BI throughput at HSBC Auto Finance</h3>
+            <p>As Head of Information Management, streamlined delivery to 30 projects a month and 60 concurrent pipelines, with a 40-person team across four cities.</p>
+          </article>
+          <article class="result">
+            <span class="result-num">4</span>
+            <h3>clouds, one source of truth</h3>
+            <p>At Qubole, consolidated usage data from AWS, Azure, GCP, and Oracle Cloud into a company-wide data lake feeding automated dashboards for every function.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── Testimonial ───────────────────────── -->
+    <section class="section section-dark quote-section">
+      <div class="container">
+        <blockquote class="big-quote">
+          <p>"The amount and quality of his work literally feels like the work of several experts, not just one individual. &hellip; This has saved us millions of dollars."</p>
+          <footer>Susan Fitzpatrick, Manager, Information Management Section, Illinois Department of Human Services</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── Experience ───────────────────────── -->
+    <section id="experience" class="section">
+      <div class="container">
+        <p class="eyebrow">Experience</p>
+        <h2>A career across every scale of data</h2>
+        <p class="lead section-lead">From IBM's performance lab to Facebook's ads data engineering, and from a $4B state program to venture-backed SaaS startups.</p>
+        <ol class="timeline">
           <li>
-            <span class="step-num">01</span>
-            <h3>Discover</h3>
-            <p>We listen, review your data, and talk with your team to understand what's really driving results.</p>
+            <span class="tl-year">2023 – now</span>
+            <h3>EntrePro Corporation <span class="tl-role">Founder, Principal Consultant &amp; Fractional CDO</span></h3>
+            <p>Executive analytics at Overjet (dental AI); Chief Data Officer at Electric Cab North America; founder of the Data Context research initiative.</p>
           </li>
           <li>
-            <span class="step-num">02</span>
-            <h3>Design</h3>
-            <p>Together we set clear priorities and build a practical roadmap with owners and milestones.</p>
+            <span class="tl-year">2021 – 2022</span>
+            <h3>SimplePractice <span class="tl-role">Head of Data</span></h3>
+            <p>Defined data strategy and led a team of 12 for the 400-employee clinician SaaS that went public in 2021 as the largest unit of EngageSmart. AWS, Snowflake, dbt.</p>
           </li>
           <li>
-            <span class="step-num">03</span>
-            <h3>Deliver</h3>
-            <p>We stay involved through execution, tracking progress and adjusting as you learn.</p>
+            <span class="tl-year">2020</span>
+            <h3>Druva <span class="tl-role">Head of Data (interim)</span></h3>
+            <p>Data strategy and transformation for an 800-person data-protection company; ETL framework and certified metrics.</p>
           </li>
           <li>
-            <span class="step-num">04</span>
-            <h3>Sustain</h3>
-            <p>We hand off the tools, habits, and dashboards your team needs to keep improving on its own.</p>
+            <span class="tl-year">2018 – 2020</span>
+            <h3>Qubole <span class="tl-role">Senior Director of Analytics, Head of BI</span></h3>
+            <p>Company-wide data lake across four clouds and thirteen environments; automated reporting for Finance, Product, Sales, and the executive team.</p>
+          </li>
+          <li>
+            <span class="tl-year">2015 – 2017</span>
+            <h3>Facebook (Meta) <span class="tl-role">Senior Data Engineer, Ads</span></h3>
+            <p>Big-data analytics and ETL architecture supporting 15 cross-functional partner teams. Co-inventor of a US patent on re-engaging dormant advertiser accounts.</p>
+          </li>
+          <li>
+            <span class="tl-year">2013 – 2015</span>
+            <h3>EntrePro Corporation <span class="tl-role">Principal Consultant</span></h3>
+            <p>Equinix enterprise data migration (30-person team), ResMed database architecture, MLS Listings data warehouse and analytics.</p>
+          </li>
+          <li>
+            <span class="tl-year">2012 – 2013</span>
+            <h3>Active Network <span class="tl-role">Director, Global Product Data Engineering</span></h3>
+            <p>All data engineering across product lines; 20 engineers in the US, Canada, and China.</p>
+          </li>
+          <li>
+            <span class="tl-year">2010 – 2012</span>
+            <h3>Concerro → API Healthcare (GE Healthcare) <span class="tl-role">Senior Information Architect</span></h3>
+            <p>Order-of-magnitude performance gains and a database-centric integration platform that helped enable the company's acquisition.</p>
+          </li>
+          <li>
+            <span class="tl-year">2006 – 2010</span>
+            <h3>Verint <span class="tl-role">Database &amp; Data Architect</span></h3>
+            <p>Multi-tenant data layer and performance roadmap for workforce-forecasting software through two acquisitions, from $10M to $600M in revenue.</p>
+          </li>
+          <li>
+            <span class="tl-year">1998 – 2006</span>
+            <h3>EntrePro Corporation <span class="tl-role">Founder &amp; Principal Consultant</span></h3>
+            <p>Head of Information Management at HSBC Auto Finance; Chief Architect of the Illinois DHS data warehouse; Sabre fares system; CTO roles at two healthcare startups.</p>
+          </li>
+          <li>
+            <span class="tl-year">1994 – 1998</span>
+            <h3>Sabre <span class="tl-role">Technology Manager &amp; Lead Architect</span></h3>
+            <p>Led migration to relational platforms for the world's largest airline reservation system. Two patents, 700 TPS benchmark, Circle of Gold award (top 2% of performers).</p>
+          </li>
+          <li>
+            <span class="tl-year">1991 – 1994</span>
+            <h3>IBM <span class="tl-role">Advisory Programmer, Performance</span></h3>
+            <p>Queueing-theory performance models for capacity planning; redesigned product databases across multiple IBM platforms.</p>
           </li>
         </ol>
       </div>
     </section>
 
-    <section id="about" class="section">
-      <div class="container about-grid">
+    <!-- ───────────────────────── Clients ───────────────────────── -->
+    <section id="clients" class="section section-alt">
+      <div class="container">
+        <p class="eyebrow">Clients &amp; employers</p>
+        <h2>Organizations we've worked with</h2>
+
+        <h3 class="logo-group-title">Consulting clients</h3>
+        <ul class="logo-grid">
+          <li><span class="logo-name">Overjet</span><span class="logo-sub">Dental AI</span></li>
+          <li><span class="logo-name">Electric Cab North America</span><span class="logo-sub">Transportation</span></li>
+          <li><span class="logo-name">Druva</span><span class="logo-sub">Data protection</span></li>
+          <li><span class="logo-name">Equinix</span><span class="logo-sub">Data centers</span></li>
+          <li><span class="logo-name">ResMed</span><span class="logo-sub">Medical devices</span></li>
+          <li><span class="logo-name">MLS Listings</span><span class="logo-sub">Real estate</span></li>
+          <li><span class="logo-name">HSBC Auto Finance</span><span class="logo-sub">Banking</span></li>
+          <li><span class="logo-name">Illinois Dept. of Human Services</span><span class="logo-sub">Government</span></li>
+          <li><span class="logo-name">Sabre</span><span class="logo-sub">Travel technology</span></li>
+          <li><span class="logo-name">Lucine Biotechnology</span><span class="logo-sub">Health tech</span></li>
+          <li><span class="logo-name">MedAnt</span><span class="logo-sub">Clinical software</span></li>
+          <li><span class="logo-name">ACC Consumer Finance</span><span class="logo-sub">Auto finance</span></li>
+          <li><span class="logo-name">Kiran Analytics</span><span class="logo-sub">Analytics</span></li>
+          <li><span class="logo-name">MagCanica</span><span class="logo-sub">Sensors</span></li>
+          <li><span class="logo-name">EMAS Pro</span><span class="logo-sub">Education software</span></li>
+          <li><span class="logo-name">Voice-mail broadcasting co.</span><span class="logo-sub">Telecom</span></li>
+        </ul>
+
+        <h3 class="logo-group-title">Employers</h3>
+        <ul class="logo-grid">
+          <li><span class="logo-name">Meta (Facebook)</span><span class="logo-sub">Social networks</span></li>
+          <li><span class="logo-name">IBM</span><span class="logo-sub">Technology</span></li>
+          <li><span class="logo-name">Sabre</span><span class="logo-sub">Travel technology</span></li>
+          <li><span class="logo-name">SimplePractice</span><span class="logo-sub">Healthcare SaaS</span></li>
+          <li><span class="logo-name">Qubole</span><span class="logo-sub">Big data cloud</span></li>
+          <li><span class="logo-name">Active Network</span><span class="logo-sub">Event management SaaS</span></li>
+          <li><span class="logo-name">GE Healthcare (API Healthcare)</span><span class="logo-sub">Workforce management</span></li>
+          <li><span class="logo-name">Verint</span><span class="logo-sub">Workforce optimization</span></li>
+        </ul>
+
+        <h3 class="logo-group-title">Academic &amp; research partners</h3>
+        <ul class="logo-grid">
+          <li><span class="logo-name">UCLA</span><span class="logo-sub">Ph.D. &amp; M.S., research</span></li>
+          <li><span class="logo-name">University of Louisville</span><span class="logo-sub">Data Context research</span></li>
+          <li><span class="logo-name">University of Rijeka</span><span class="logo-sub">Data Context research</span></li>
+          <li><span class="logo-name">University of Ljubljana</span><span class="logo-sub">Data Context research</span></li>
+          <li><span class="logo-name">NUIST, Nanjing</span><span class="logo-sub">Invited presentation</span></li>
+          <li><span class="logo-name">San Diego State University</span><span class="logo-sub">Adjunct professor</span></li>
+          <li><span class="logo-name">University of Dallas</span><span class="logo-sub">Adjunct professor</span></li>
+          <li><span class="logo-name">University of Sarajevo</span><span class="logo-sub">B.Sc., research</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── Research ───────────────────────── -->
+    <section id="research" class="section">
+      <div class="container research-grid">
         <div>
-          <p class="eyebrow">About</p>
-          <h2>Built for entrepreneurs, by people who've been there</h2>
+          <p class="eyebrow">Research &amp; innovation</p>
+          <h2>Data Context: a simpler way to run data platforms</h2>
+          <p class="lead">EntrePro's research initiative, <strong>Data Context</strong>, extends SQL so that ingestion, transformation, governance, and machine learning can be expressed in a few readable lines instead of hundreds of lines of orchestration code. An ETL job that takes 139 lines across two languages in Airflow becomes 25 lines of SQL; a SageMaker training pipeline drops from 68 lines to 8.</p>
+          <p>The work is carried out with academic partners in the US and Europe and has been presented at the University of Louisville, NUIST in Nanjing, and Google Developer Group Sarajevo.</p>
+          <div class="code-compare" aria-label="Code comparison">
+            <div class="code-col">
+              <span class="code-label">Typical orchestration</span>
+              <span class="code-big">139</span>
+              <span class="code-sub">lines · 2 languages</span>
+            </div>
+            <div class="code-arrow" aria-hidden="true">→</div>
+            <div class="code-col code-col-accent">
+              <span class="code-label">Data Context</span>
+              <span class="code-big">25</span>
+              <span class="code-sub">lines · SQL only</span>
+            </div>
+          </div>
         </div>
-        <div class="about-copy">
-          <p>EntrePro Corporation exists to give growing businesses access to the kind of strategic guidance usually reserved for large enterprises, delivered with the urgency and practicality that small, ambitious teams need.</p>
-          <p>We don't hand over a slide deck and disappear. We work alongside you, stay accountable to outcomes, and measure success by the results you can see in your business.</p>
-          <blockquote>"Good advice is cheap. Advice that gets implemented is what moves a business forward."</blockquote>
+        <div class="research-side">
+          <h3>Patents</h3>
+          <ul class="pub-list">
+            <li><a href="https://patents.google.com/patent/US20180096378A1" target="_blank" rel="noopener">Monitoring dormant accounts for resurrection in an online system</a><span>US 2018/0096378 · Meta, 2018</span></li>
+            <li><a href="https://patents.google.com/patent/US6714945B1" target="_blank" rel="noopener">Propagating transaction processing facility data to a variety of clients</a><span>US 6,714,945 · Sabre, 2004</span></li>
+            <li><a href="https://patents.google.com/patent/US6122642A" target="_blank" rel="noopener">Propagating airline reservation data on a relational database platform</a><span>US 6,122,642 · Sabre, 2000</span></li>
+          </ul>
+          <h3>Selected publications</h3>
+          <ul class="pub-list">
+            <li>Data Context Solution for Managing Data Platforms<span>University of Louisville, 2025</span></li>
+            <li>Data Function for a Successful SaaS Organization<span>Google Developer Group Sarajevo, 2024</span></li>
+            <li>Garbanzo Architecture: An Economical Symmetrical Scalable Architecture for SaaS<span>University of Louisville, 2010</span></li>
+            <li>Poisson Winner Queues (with L. Kleinrock)<span>Performance Evaluation 14, 1992</span></li>
+            <li>Generation of Short Unique Key Values for Database Tables<span>IBM Technical Disclosure Bulletin, 1993</span></li>
+            <li>Performance Modeling of Concurrency Control<span>Ph.D. dissertation, UCLA, 1989</span></li>
+          </ul>
         </div>
       </div>
     </section>
 
+    <!-- ───────────────────────── About ───────────────────────── -->
+    <section id="about" class="section section-alt">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>Dr. Farid Mehovic</h2>
+          <p class="about-title">Founder &amp; Principal, EntrePro Corporation</p>
+        </div>
+        <div class="about-copy">
+          <p>Farid Mehovic has spent his career at the intersection of data, performance, and business value. He earned his Ph.D. in Computer Science at UCLA under Leonard Kleinrock, one of the fathers of the Internet, with a dissertation on the performance of database concurrency control, and has been building and leading data systems ever since.</p>
+          <p>He founded EntrePro Corporation in 1994 as a vehicle for consulting engagements that range from Fortune 500 companies to state government to venture-backed startups. In between, he has held senior data roles at IBM, Sabre, Facebook, Qubole, and SimplePractice, managing teams of up to 40 people across the US, Canada, India, and China. He has also taught database courses as an adjunct professor at San Diego State University and the University of Dallas.</p>
+          <p>EntrePro is a Texas corporation based in Austin, working with clients across the United States and internationally.</p>
+          <dl class="facts">
+            <div><dt>Education</dt><dd>Ph.D. and M.S. in Computer Science, UCLA · B.Sc. in Electrical Engineering &amp; Computer Science, University of Sarajevo (top graduate, gold medal)</dd></div>
+            <div><dt>Industries</dt><dd>SaaS &amp; social networks · healthcare &amp; medical devices · travel · government · banking &amp; finance · real estate</dd></div>
+            <div><dt>Platforms</dt><dd>AWS, GCP, Azure · Snowflake, BigQuery, Redshift, Athena · PostgreSQL, SQL Server, Oracle, DB2, MySQL · Airflow, dbt, Fivetran · Looker, Tableau, Power BI, Sigma</dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────────────────── Contact ───────────────────────── -->
     <section id="contact" class="section section-dark">
       <div class="container contact-grid">
         <div>
           <p class="eyebrow">Contact</p>
-          <h2>Let's talk about what's next</h2>
-          <p class="lead">Tell us a little about your business and where you want to go. We'll reply within one business day to set up a free 30-minute consultation.</p>
+          <h2>Let's talk about your data</h2>
+          <p class="lead">Whether you need a fractional CDO, a second opinion on an architecture, or a plan to fix a system that's too slow, start with a free 30-minute conversation. We reply within one business day.</p>
           <ul class="contact-list">
             <li><span>Email</span><a href="mailto:info@entrepro.biz">info@entrepro.biz</a></li>
+            <li><span>Location</span>Austin, Texas · clients nationwide and abroad</li>
           </ul>
         </div>
         <!-- Submissions are emailed to info@entrepro.biz via FormSubmit (formsubmit.co). The first submission triggers a one-time activation email. -->
@@ -171,7 +458,7 @@
           <label>Name<input type="text" name="name" autocomplete="name" required></label>
           <label>Email<input type="email" name="email" autocomplete="email" required></label>
           <label>Company<input type="text" name="company" autocomplete="organization"></label>
-          <label>How can we help?<textarea name="message" rows="4" required></textarea></label>
+          <label>What are you working on?<textarea name="message" rows="4" required></textarea></label>
           <button type="submit" class="btn">Send message</button>
         </form>
       </div>

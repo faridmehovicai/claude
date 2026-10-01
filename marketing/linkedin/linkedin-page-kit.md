@@ -75,7 +75,6 @@ Dr. Mehovic earned his Ph.D. in Computer Science at UCLA under Leonard Kleinrock
 
 Based in La Jolla, California. Working with clients across the United States and internationally.
 
-Inquiries: info@entrepro.biz
 
 ---
 
@@ -87,12 +86,6 @@ Data Strategy, Fractional CDO, Enterprise Data Architecture, Data Warehousing, D
 
 #DataStrategy #FractionalCDO #DataArchitecture
 
-## Call-to-action button
-
-Button: **Contact us**
-URL: https://entrepro.biz/#contact
-
----
 
 ## Images (in this folder)
 
@@ -105,7 +98,7 @@ URL: https://entrepro.biz/#contact
 
 ---
 
-## Launch posts
+## Launch posts (optional)
 
 Post these from the company page, one every few days, and reshare each from
 your personal profile. LinkedIn posts cut off after about 210 characters until

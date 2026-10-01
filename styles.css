@@ -97,7 +97,7 @@ blockquote { margin: 1.8em 0 0; padding: 1em 0 1em 1.4em; border-left: 3px solid
 
 .site-footer { background: #071528; color: #9aa7ba; font-size: .9rem; padding: 24px 0; }
 .footer-inner { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
-.footer-inner a { text-decoration: none; }
+.footer-inner a { text-decoration: none; color: inherit; }
 .footer-inner a:hover { color: #fff; }
 
 /* Responsive */

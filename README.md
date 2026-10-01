@@ -7,7 +7,7 @@ database performance, data migration, executive analytics).
 ## Structure
 
 - `index.html` — home (hero, expertise, approach, results, experience
-  timeline, clients & employers, research & patents, about, contact)
+  timeline, clients & employers, research & patents, about)
 - `services.html` — fourteen services in four groups, plus engagement models
 - `projects.html` — twenty projects with category filters
 - `publications.html` — three patents and 21 publications grouped by decade
@@ -59,6 +59,3 @@ The site lists `info@entrepro.biz`. To forward it to your Gmail for free, use
 3. Optional: to reply *as* info@entrepro.biz from Gmail, add it under
    Gmail **Settings → Accounts → Send mail as** using ImprovMX's SMTP details.
 
-The contact form posts to [FormSubmit](https://formsubmit.co), which emails each
-submission to `info@entrepro.biz`. The very first submission sends a one-time
-activation email to that address; click the link in it to turn the form on.

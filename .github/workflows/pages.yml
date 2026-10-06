@@ -2,7 +2,7 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [claude/friendly-tesla-dhk0pc]
+    branches: [main]
   workflow_dispatch:
 
 permissions:

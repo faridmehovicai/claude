@@ -1,6 +1,8 @@
 # Photo credits
 
-All photographs are released under CC0 / public domain and were found through Openverse (openverse.org).
+- `farid-mehovic.jpg` — portrait of Dr. Farid Mehovic, supplied by the subject. All rights reserved. Metadata stripped, resized to 900 px wide.
+
+All other photographs are released under CC0 / public domain and were found through Openverse (openverse.org).
 
 - `home.jpg` — "Mountains Mountain" by unknown, via stocksnap (CC0). https://cdn.stocksnap.io/img-thumbs/960w/AXGGPGUUML.jpg
 

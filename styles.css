@@ -216,6 +216,7 @@ h2 em { font-style: italic; color: var(--gold); }
 
 /* About */
 .about-title { color: var(--muted); font-weight: 500; }
+.about-photo { display: block; width: 100%; max-width: 340px; height: auto; margin-top: 24px; border-radius: var(--radius); box-shadow: 0 24px 60px -28px rgba(11,31,58,.45); }
 .facts { margin: 2em 0 0; display: grid; gap: 14px; }
 .facts div { display: grid; grid-template-columns: 110px 1fr; gap: 12px; padding-top: 12px; border-top: 1px solid var(--line); }
 .facts dt { font-size: .75rem; letter-spacing: .1em; text-transform: uppercase; color: var(--gold); font-weight: 600; padding-top: 3px; }

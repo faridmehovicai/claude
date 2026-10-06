@@ -31,8 +31,7 @@ the file with a landscape JPEG of at least 1200 px width and keep the filename.
 ## Hosting on entrepro.biz (GitHub Pages)
 
 The site deploys automatically through GitHub Actions
-(`.github/workflows/pages.yml`) on every push to the repository's default
-branch. Pages is enabled with source "GitHub Actions" and custom domain
+(`.github/workflows/pages.yml`) on every push to the `main` branch. Pages is enabled with source "GitHub Actions" and custom domain
 `entrepro.biz` under **Settings → Pages**.
 
 DNS, in Wix under **Domains → entrepro.biz → Manage DNS Records**:

@@ -110,7 +110,7 @@ EntrePro Corporation is on LinkedIn.
 
 For thirty years I've built data systems at every scale: IBM's performance lab, Sabre's reservation platform, Facebook's ads data, and a dozen fast-growing SaaS companies. Since 1994, EntrePro has been the vehicle for bringing that experience to clients as a consultant and, increasingly, as a fractional Chief Data Officer.
 
-The new website tells the story: 21 projects, 3 patents, and the services we offer, from data strategy to database performance.
+The new website tells the story: 20 projects, 3 patents, and the services we offer, from data strategy to database performance.
 
 https://entrepro.biz
 

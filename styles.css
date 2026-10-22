@@ -276,7 +276,6 @@ h2 em { font-style: italic; color: var(--gold); }
 .project-org { color: var(--muted); font-size: .92rem; margin-bottom: 1.2em; }
 .project-body h3 { font-size: .78rem; letter-spacing: .12em; text-transform: uppercase; color: var(--gold); margin: 1.1em 0 .3em; }
 .project-body p { color: var(--ink); margin: 0; max-width: 62em; }
-.project-body p + p { margin-top: .8em; }
 .project-links { margin-top: 1em !important; font-size: .92rem; }
 .project-links a { color: var(--navy); font-weight: 500; }
 .project-quote { margin: 1.4em 0 0; padding: .8em 0 .8em 1.2em; border-left: 3px solid var(--gold); font-family: var(--serif); font-size: 1.1rem; color: var(--navy); }

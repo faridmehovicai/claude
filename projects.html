@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Projects | EntrePro Corporation</title>
-  <meta name="description" content="Twenty data projects led by Dr. Farid Mehovic, from a massively parallel welfare data warehouse to a company-wide data lake across four clouds.">
+  <meta name="description" content="Twenty-one data projects led by Dr. Farid Mehovic, from a massively parallel welfare data warehouse to a decision framework for RAG and AI agents.">
   <link rel="canonical" href="https://entrepro.biz/projects.html">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,7 +37,7 @@
       <div class="container hero-grid">
         <div>
         <p class="eyebrow">Projects</p>
-        <h1>Twenty projects, <em>three decades</em>, one discipline</h1>
+        <h1>Twenty-one projects, <em>three decades</em>, one discipline</h1>
         <p class="lead">Each engagement below follows the same pattern: a real business problem, a data architecture that fits it, and a measurable result. They run from the most recent back to 1995.</p>
         </div>
         <figure class="hero-photo">
@@ -58,6 +58,19 @@
         </div>
 
         <ol class="projects">
+
+          <li class="project" data-cat="strategy startup">
+            <div class="project-meta"><span class="project-year">2026</span><span class="project-tag">Project · R&amp;D</span></div>
+            <div class="project-body">
+              <h2>RAG or an AI agent? A decision framework for enterprise AI</h2>
+              <p class="project-org">EntrePro Corporation · independent R&amp;D · retrieval-augmented generation and tool-using agents on large language models</p>
+              <h3>Challenge</h3>
+              <p>Leadership teams are asked to choose between "RAG" and "an AI agent" as if they were competing products. They are not. Retrieval-augmented generation is a retrieval pattern that grounds a model's answer in the company's own data. An agent is a control pattern in which the model decides which actions to take, in a loop, until a task is done. Treating them as rivals produces agents built for simple question answering and fixed pipelines built for work that needs several steps.</p>
+              <h3>Approach</h3>
+              <p>Separated the two along the dimension that matters: who controls the flow. In a RAG pipeline the code does. A query is matched against an index of documents, the best passages are placed in the prompt, and the model answers once, with citations. The result is predictable, cheap, fast, and auditable, but capped by retrieval quality and unable to act. In an agent the model does. It plans, calls tools such as search, database queries, APIs, and code execution, reads the results, and repeats. That handles multi-step work and can act on systems, at the price of higher cost, more variance, and the need for guardrails and evaluation.</p>
+              <p>From that split, defined a four-question test before any agent is built: the task is genuinely multi-step and hard to specify in advance, the outcome justifies the cost, the model is capable at that task type, and errors can be caught and recovered. A no to any one keeps the project on the simpler pipeline. The framework also covers the two cases that change the answer: agentic RAG, where retrieval becomes a tool the agent calls and re-queries, and long-context prompting, where a small, stable corpus is placed directly in the prompt with citations and the index is skipped altogether. RAG earns its place when the corpus is too large to fit, changes often, or must be filtered per user for access control.</p>
+            </div>
+          </li>
 
           <li class="project" data-cat="warehouse strategy">
             <div class="project-meta"><span class="project-year">2023</span><span class="project-tag">Project</span></div>
